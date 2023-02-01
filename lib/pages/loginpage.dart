@@ -44,9 +44,12 @@ class loginPage extends StatelessWidget {
                   ),
                   ElevatedButton(
                     child: Text("Login"),
-                    style: TextButton.styleFrom(),
+                    style: TextButton.styleFrom(
+                      // style is used to change the style of button
+                      backgroundColor: Color.fromARGB(255, 13, 27, 213),
+                    ),
                     onPressed: () {
-                      print("Hi Guys this is Peter");
+                      print("Hi Guys this is Family guy fan page");
                     },
                   ),
                 ],
