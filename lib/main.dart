@@ -44,3 +44,16 @@ class MyApp extends StatelessWidget {
 // Navbar is a stateless widget because it is not changing its state
 
 // Run flutter through terminal--> flutter run -d device_name or flutter run -d chrome 
+
+
+// State is a class which is used to change the state of the widget
+// Stateful widget is a widget which changes its state
+// stateless widget is a widget which does not change its state basically it is a constant widget in which we cannnot change anything
+// which is visible to the user
+
+
+//Underscore(_) is used to make a variable private for example _name is a private variable and not accessible outside the class
+
+// To make a container clickable we have two options
+// 1. We can use InkWell widget. It is a material widget which is used to make a container clickable
+// 2. We can use GestureDetector widget. it is different from as it wont show any ripple effect when we click on itS

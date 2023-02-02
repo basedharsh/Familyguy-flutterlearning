@@ -5,13 +5,13 @@ class HomePage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final int days = 1;
+    final int days = 6;
     final String name = "Harsh";
 
     return Scaffold(
       // Scaffold is a widget appbar is head  and body is body and for footer we use bottomNavigationBar or drawer
       appBar: AppBar(
-        title: Text("Harshu App"),
+        title: Text("Hehehehehe"),
       ),
       body: Center(
         child: Container(
