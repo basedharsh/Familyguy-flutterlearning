@@ -113,3 +113,5 @@ class _loginPageState extends State<loginPage> {
 
 // What is purpose of child: Child is used to add a  single child widget to the parent widget
 // What is childre: Children is used to add multiple child widgets to the parent widget
+
+//Day 7 nothing new done
