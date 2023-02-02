@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:peterfan/utils/routes.dart';
 import 'pages/homepage.dart';
 import 'pages/loginpage.dart';
 
@@ -11,6 +12,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false, //to remove the debug banner
       themeMode: ThemeMode.light,
       theme: ThemeData(
         primarySwatch: Colors.deepPurple,
@@ -19,13 +21,13 @@ class MyApp extends StatelessWidget {
       darkTheme: ThemeData(
         brightness: Brightness.dark,
       ),
-      //initialRoute: "/home",
+      initialRoute: "/login",
       routes: {
-        "/": (context) => loginPage(),
+        "/": (context) => HomePage(),
         // new is optional used to create a new object of the class
         //but dart is smart enough to do it on its own
-        "/home": (context) => HomePage(),
-        "/login": (context) => loginPage(),
+        MyRoutes.homeRoute: (context) => HomePage(),
+        MyRoutes.loginRoute: (context) => loginPage(),
       },
     );
   }
@@ -39,3 +41,6 @@ class MyApp extends StatelessWidget {
 
 //Method is function inside a class while function is outside a class and @required is used to make a parameter required
 
+// Navbar is a stateless widget because it is not changing its state
+
+// Run flutter through terminal--> flutter run -d device_name or flutter run -d chrome 
