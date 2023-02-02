@@ -1,14 +1,14 @@
-#Structured Login Page 
+# Structured Login Page 
 
 
-Login Page-->
+## Login Page-->
 
 ![WhatsApp Image 2023-02-03 at 01 52 19](https://user-images.githubusercontent.com/90195370/216441719-e912efef-f9d7-49a5-8007-8d9968486b3a.jpg)
 
 
 
 
-Error when username/password left empty-->
+## Error when username/password left empty-->
 
 
 
@@ -16,7 +16,7 @@ Error when username/password left empty-->
 ![WhatsApp Image 2023-02-03 at 01 52 20](https://user-images.githubusercontent.com/90195370/216441762-f6df88f2-3abc-4cf5-9876-a0719ae427e1.jpg)
 
 
-Error when Password is <6 variables-->
+## Error when Password is <6 variables-->
 
 
 
@@ -25,7 +25,7 @@ Error when Password is <6 variables-->
 
 
 
-Writes username in the welcome messsage and Login animation check box-->
+## Writes username in the welcome messsage and Login animation check box-->
 
 
 
@@ -35,7 +35,7 @@ Writes username in the welcome messsage and Login animation check box-->
 
 
 
-Logged in-->
+##  Logged in hehe-->
 
 
 
