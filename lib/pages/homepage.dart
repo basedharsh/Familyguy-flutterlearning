@@ -12,7 +12,7 @@ class HomePage extends StatelessWidget {
     return Scaffold(
       // Scaffold is a widget appbar is head  and body is body and for footer we use bottomNavigationBar or drawer
       appBar: AppBar(
-        title: Text("Family Guy App"),
+        title: Text("Family Guy Store"),
       ),
       body: Center(
         child: Container(
